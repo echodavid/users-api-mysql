@@ -1,0 +1,8 @@
+
+DB_USERNAME=asd
+DB_PASSWORD=AVdas
+DB_HOST=masd
+DB_PORT=3306
+DB_NAME=users_api
+
+PORT=8333

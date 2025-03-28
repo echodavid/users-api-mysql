@@ -16,4 +16,4 @@ COPY . /src
 EXPOSE 8333
 
 # Comando para iniciar la aplicación
-CMD [ "node", "src/index.js" ]
+CMD [ "node", "index.js" ]
