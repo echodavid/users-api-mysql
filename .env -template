@@ -4,5 +4,6 @@ DB_PASSWORD=AVdas
 DB_HOST=masd
 DB_PORT=3306
 DB_NAME=users_api
+DB_SSL=false
 
 PORT=8333
