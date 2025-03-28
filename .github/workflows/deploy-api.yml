@@ -17,4 +17,8 @@ jobs:
           node-version: 20
       - run: ls -la
       - run: echo "hola mundo"
+      - run: docker build -t echodavid/nodejs-restapi-mysql .
+      - run: docker images
+      # - run: sudo docker tag echodavid/nodejs-restapi-mysql echodavid/nodejs-restapi-mysql:latest
+      # - run: sudo docker push echodavid/nodejs-restapi-mysql:latest
 
