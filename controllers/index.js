@@ -12,6 +12,7 @@ const createUser = async (req, res) => {
 };
 
 const getAllUsers = async (req, res) => {
+    console.log('Fetching all users...');
     try {
         const users = await models.User.findAll({
         include: [
